@@ -1,0 +1,19 @@
+
+docker-compose up -d //jalankan docker compose file
+
+docker container start -nama container- //start container
+
+docker exec -it -nama container- base //untuk masuk ke mongo shell
+
+docker container create --name MongoDB -p 27017:27017 -nama images- //create container jika images sudah ada
+
+db.getCollectionNames() //nampilin collection atau dalam database biasa colom
+
+use -database name- //switch database
+
+db.getCollectionInfos() //Info Collections
+
+db.name -> sama saja seperti db.getCollectionName("-nama Collection-) //select colection
+
+db.createCollection("Tes1") //buat collection select colection
+
